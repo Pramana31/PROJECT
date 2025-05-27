@@ -13,18 +13,19 @@
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
+
+
             <div class="navbar-home border">
                 <a href="index.html">Home</a>
             </div>
+
+            
             <div class="navbar-about border">
-                <a href="#">About</a>
+                <a href="#about">About</a>
             </div>
-            <div class="nav-address border">
-                <span class="deliver">Deliver to</span>
-                <div class="address-icon">
-                    <i class="fa-solid fa-location-dot"></i><p class="address">India</p>
-                </div>
-            </div>
+
+            <!--search section starts-->
+
             <div class="nav-search">
                 <select class="search-select">
                     <option>All</option>
@@ -36,109 +37,138 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-            <div class="nav-signin">
-                <span class="nav-first">Hello,Sign in</span>
-                <span class="nav-second">Account</span>
-                <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+
+            <!--deliver section starts-->
+
+            <div class="nav-address border">
+                <span class="deliver">Deliver to</span>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i><p class="address">India</p>
+                </div>
             </div>
+
+            <!--signin section starts-->
+
+            <div class="nav-signin">
+                <div class="btnLogin-popup"><i class="fa-solid fa-user"></i></div>
+            </div>
+
+            <!--cart section starts-->
+
             <div class="nav-cart">
                 <i class="fa-solid fa-cart-shopping"></i>
             </div>
+
+
         </div>
     </header>
 
+    <!--login section starts-->
+
     <div class="hero-section">
-        <div class="wrapper">
+      <div class="wrapper">
         <span class="icon-close">
-        <ion-icon name="close"></ion-icon>
+          <ion-icon name="close"></ion-icon>
         </span>
-    <div class="form-box login">
-      <h2>Login</h2>
-      <form action="#">
-        <div class="input-box">
-          <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="email"required>
-          <label>Email</label>
+        <div class="form-box login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email"required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="eye-off"></ion-icon></span>
+              <input type="password"required>
+              <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+              <label><input type="checkbox">Remember me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit"class="btn">Login</button>
+            <div class="register">
+              <p>Don't have an account?
+              <a href="#"class="register-link">Register</a></p>
+            </div>
+          </form>
         </div>
-        <div class="input-box">
-          <span class="icon"><ion-icon name="eye-off"></ion-icon></span>
-          <input type="password"required>
-          <label>Password</label>
-        </div>
-        <div class="remember-forgot">
-          <label><input type="checkbox">Remember me</label>
-          <a href="#">Forgot password?</a>
-        </div>
-        <button type="submit"class="btn">Login</button>
-        <div class="register">
-          <p>Don't have an account?
-          <a href="#"class="register-link">Register</a></p>
-        </div>
-      </form>
-    </div>
 
-    <div class="form-box register">
-      <h2>Registeration</h2>
-      <form action="#">
-        <div class="input-box">
-          <span class="icon"><ion-icon name="person"></ion-icon></span>
-          <input type="text"required>
-          <label>Username</label>
-        </div>
-        <div class="input-box">
-          <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="email"required>
-          <label>Email</label>
-        </div>
-        <div class="input-box">
-          <span class="icon"><ion-icon name="eye-off"></ion-icon></span>
-          <input type="password"required>
-          <label>Password</label>
-        </div>
-        <div class="remember-forgot">
-          <label><input type="checkbox">I agree to the terms & conditions</label>
-        </div>
-        <button type="submit"class="btn">Register</button>
-        <div class="register">
-          <p>Already have an account?
-          <a href="#"class="login-link">Login</a></p>
-        </div>
-      </form>
-    </div>
+        <!--registration section starts-->
 
-  </div>
+        <div class="form-box register">
+          <h2>Registration</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text"required>
+              <label>Username</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email"required>
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><ion-icon name="eye-off"></ion-icon></span>
+              <input type="password"required>
+              <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+              <label><input type="checkbox">I agree to the terms & conditions</label>
+            </div>
+            <button type="submit"class="btn">Register</button>
+            <div class="register">
+              <p>Already have an account?
+              <a href="#"class="login-link">Login</a></p>
+            </div>
+          </form>
+        </div>
 
-  <script src="script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    </div>
+      </div>
+</div>
+      <script src="script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--shop section starts-->
 
     <div class="shop-section">
         <div class="box" >
             <div class="box-content">
                 <h2>Women's Wear</h2>
-                <div class="box-img" style="background-image: url('women_wear.png');">
-                </div>
-                <a href="#">Shop now</a>
+                <div class="box-img" style="background-image: url('women_wear.png');"></div>
+                <a href="women.html">Shop now</a>
             </div>
         </div>
         <div class="box">
             <div class="box-content">
                 <h2>Men's Wear</h2>
-                <div class="box-img" style="background-image: url('women_wear.png');">
+                <div class="box-img" style="background-image: url('men_wear.png');">
                 </div>
-                <a href="#">Shop now</a>
+                <a href="men.html">Shop now</a>
             </div>
         </div>
         <div class="box">
             <div class="box-content">
                 <h2>Kid's Wear</h2>
-                <div class="box-img" style="background-image: url('women_wear.png');">
+                <div class="box-img" style="background-image: url('kidwear.png');">
                 </div>
-                <a href="#">Shop now</a>
+                <a href="kid.html">Shop now</a>
             </div>
         </div>
     </div>
+
     
+
+    <!--about us section starts-->
+      <section class="about" id="about">
+          <h4 class="heading">About Us</h4>
+          <div class="box-container">
+                
+
+          </div>
+      </section>
+      <!--about us section ends-->
 </body>
 </html>
